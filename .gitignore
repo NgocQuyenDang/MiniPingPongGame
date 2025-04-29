@@ -1,7 +1,6 @@
-# Ignore everything
+# Ignore
 *
 /.idea
-
+*.class
 #But NOT .java and README files
-!*.java
 !README.md
