@@ -23,11 +23,13 @@ public class GameManager {
 
         if (rectBall.intersects(rectRp)) {
             ball.speedX = -Math.abs(ball.speedX);
+            //ball.speedY = getRandomBounce(ball.speedY);
             ball.setCollision(true);
         }
 
         if (rectBall.intersects(rectLp)) {
             ball.speedX = Math.abs(ball.speedX);
+            //ball.speedY = getRandomBounce(ball.speedY);
             ball.setCollision(true);
         }
 
@@ -45,6 +47,11 @@ public class GameManager {
             ball.resetBall(panelWidth, panelHeight);
         }
     }
+
+//    private int getRandomBounce(int speedY) {
+//        int random = (int) (Math.random() * 6) - 3;
+//        return speedY + random;
+//    }
 
     public void handleKeyInput(int keyCode, int panelHeight) {
         if (keyCode == KeyEvent.VK_1) {

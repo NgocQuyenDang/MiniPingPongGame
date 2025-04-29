@@ -1,7 +1,7 @@
 public class Player {
     private int x, y;
     private int width = 30;
-    private int height = 100;
+    private int height = 150;
     private int speedY = 20;
     private int score = 0;
 

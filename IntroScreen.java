@@ -3,7 +3,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileNotFoundException;
 import javax.imageio.ImageIO;
 
 public class IntroScreen extends JPanel implements KeyListener {
@@ -19,7 +18,7 @@ public class IntroScreen extends JPanel implements KeyListener {
         requestFocusInWindow();
 
         try {
-            backgroundImage = ImageIO.read(new File("uu.jpg"));
+            backgroundImage = ImageIO.read(getClass().getResourceAsStream("/images/uu.jpg"));
         } catch (Exception e) {
             System.out.println("File not found");
         }

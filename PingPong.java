@@ -1,9 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
 public class PingPong extends JFrame {
 
@@ -21,15 +17,8 @@ public class PingPong extends JFrame {
         frame.add(introScreen);
 
         frame.setVisible(true);
-//        this.add(controlWindow);
-//        this.pack();
-//        this.setTitle("Ping Pong");
-//        this.setSize(this.getWidth(), this.getHeight());
-//        this.setLocationRelativeTo(null);
-//        this.setResizable(true);
-//        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
-//        this.setVisible(true);
+        Image icon = Toolkit.getDefaultToolkit().getImage("/images/mainlogo.jpg");
+        setIconImage(icon);
     }
 
     public static void main(String[] args) {

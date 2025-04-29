@@ -1,14 +1,13 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.awt.geom.RoundRectangle2D;
 
 public class ControlWindow extends JPanel implements ActionListener, KeyListener {
 
    private Ball ball;
    private Player leftPlayer, rightPlayer;
    private GameManager gameManager;
-   private Timer timer = new Timer(30, this);
+   private Timer timer = new Timer(15, this);
    private Render render;
 
 

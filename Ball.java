@@ -2,8 +2,8 @@
 
         public int x, y;
         private int diameter;
-        public int speedX = 10;
-        public int speedY = 10;
+        public int speedX = 20;
+        public int speedY = 20;
         private boolean collision = false;
         private int flashCount = 0;
 
@@ -29,6 +29,9 @@
         public void resetBall(int panelWidth, int panelHeight) {
             x = panelWidth / 2;
             y = panelHeight / 2;
+
+            speedX = (Math.random() < 0.5) ? -10 : 10;
+            speedY = (Math.random() < 0.5) ? -10 : 10;
         }
 
         public boolean isCollision() {
