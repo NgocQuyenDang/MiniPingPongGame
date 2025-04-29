@@ -1,8 +1,8 @@
 ﻿#Ping Pong Game
 
 ##Introduction 
-- This is a very simple, friendly ping-pong game project, developed after I had already
-completed module Introduction to Programming in the first semester at university.
+- This is a very simple, friendly ping-pong game project, developed after I had almost
+completed module Object-Oriented Programming in the second semester at university.
 
 ##Features
 - 2-player game
