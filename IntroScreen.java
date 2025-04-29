@@ -77,6 +77,4 @@ public class IntroScreen extends JPanel implements KeyListener {
 
     public void keyTyped(KeyEvent e) {}
     public void keyReleased(KeyEvent e) {}
-
-
 }

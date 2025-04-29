@@ -1,0 +1,6 @@
+# Ignore everything
+*
+
+#But NOT .class and README files
+!*.class
+!README.md

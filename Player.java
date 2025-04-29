@@ -1,5 +1,4 @@
 public class Player {
-    private String name;
     private int x, y;
     private int width = 30;
     private int height = 100;
@@ -9,10 +8,6 @@ public class Player {
     public Player (int x, int y){
         this.x = x;
         this.y = y;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public int getX() {
@@ -37,10 +32,6 @@ public class Player {
 
     public int getScore() {
         return score;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public void setX(int x) {
