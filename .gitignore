@@ -1,5 +1,6 @@
 # Ignore everything
 *
+/.idea
 
 #But NOT .class and README files
 !*.class
