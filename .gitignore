@@ -1,6 +1,9 @@
-# Ignore
-*
-/.idea
+# Ignore all .class files
 *.class
-#But NOT .java and README files
+# Ignore .idea folder
+.idea/
+# Do not ignore .java files
+!*.java
+
+# Do NOT ignore README.md
 !README.md
