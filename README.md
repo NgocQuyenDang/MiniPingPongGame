@@ -12,12 +12,7 @@ completed module Object-Oriented Programming in the second semester at universit
 Player, Render, GameManager and ControlWindow.
 
 ##How to run
-1. Clone from my github link
-2. Install Java SE
-3. Compile the source files in your terminal, including 2 steps :
-+ javac PingPong.java
-+ java PingPong.java
+Install the file : PingPong.exe
 
-
-Note: This version is basic prototype. I am planning to redesign the game with vivid visuals, and a more engaging experience. Furthermore, I also aim to provide packaged .exe version so you can try it without compiling the source files.
+Note: This version is basic prototype. I am planning to redesign the game with vivid visuals, and a more engaging experience.
 
