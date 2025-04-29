@@ -2,6 +2,9 @@
 *.class
 # Ignore .idea folder
 .idea/
+# Ignore META-INF and out folder
+out/
+META-INF
 # Do not ignore .java files
 !*.java
 
